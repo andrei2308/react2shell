@@ -1,0 +1,31 @@
+{
+  "name": "react2shell-exploit",
+  "version": "1.0.0",
+  "description": "React2Shell Exploit for CVE-2025-55182 - RCE vulnerability in React Server Components",
+  "main": "exploit.js",
+  "scripts": {
+    "start": "node exploit.js"
+  },
+  "keywords": [
+    "react",
+    "rce",
+    "exploit",
+    "cve-2025-55182",
+    "security",
+    "pentest",
+    "ctf"
+  ],
+  "author": "andrei2308",
+  "license": "MIT",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrei2308/react2shell-exploit.git"
+  }
+}
